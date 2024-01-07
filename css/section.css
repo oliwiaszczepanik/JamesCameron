@@ -1,0 +1,75 @@
+.section {
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.section--container {
+    overflow-x: auto;
+}
+
+.section__button {
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 10px;
+    border: 2px solid #633636;
+    background-color: #e6e6e6;
+}
+
+.section__button:hover {
+    background-color: #E2C7C7;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #2424c6;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.section__link:focus {
+    outline: 2px solid #2424c6;
+    background-color: #e6e0e0;
+    box-shadow: 0px 0px 30px 3px #E2C7C7;
+}
+
+.section__link:hover {
+    color: #00008f;
+    background-color: #e6e0e0;
+    box-shadow: 0px 0px 30px 3px #E2C7C7;
+}
+
+.section__link:active {
+    color: #640000;
+    background-color: #e6e0e0;
+    box-shadow: 0px 0px 30px 3px #E2C7C7;
+    outline: none;
+}
+
+.section__link--show {
+    display: none;
+}
+
+.section__table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+.section__caption {
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.section__tableCell {
+    padding: 20px;
+    border: 1px solid #7c0303;
+}
+
+.section__tableCell:hover {
+    background-color: #e4e4e4;
+}
+
+.section__tableCell--tableHeader {
+    color: #500000;
+    background-color: #ddd8d8;
+}

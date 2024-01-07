@@ -1,0 +1,31 @@
+.navigation__unorderedList {
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #2424c6;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.navigation__link:focus {
+    outline: 2px solid #2424c6;
+    background-color: #e6e0e0;
+    box-shadow: 0px 0px 30px 3px #E2C7C7;
+}
+
+.navigation__link:hover {
+    color: #00008f;
+    background-color: #e6e0e0;
+    box-shadow: 0px 0px 30px 3px #E2C7C7;
+}
+
+.navigation__link:active {
+    color: #640000;
+    background-color: #e6e0e0;
+    box-shadow: 0px 0px 30px 3px #E2C7C7;
+    outline: none;
+}

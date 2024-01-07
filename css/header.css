@@ -1,0 +1,10 @@
+.header_mainHeader {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 35px #474747;
+}
+
+.header_image {
+    max-width: 1000px;
+    text-align: center;
+}
