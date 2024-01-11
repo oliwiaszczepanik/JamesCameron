@@ -1,11 +1,16 @@
-let button = document.querySelector(".js-section__button");
-let source = document.querySelector(".js-source");
-let show = document.querySelector(".section__link--show");
-let biographySource = document.querySelector(".section__link--biographySource");
+{
+    const toggleSourceDisplay = () => {
+        const source = document.querySelector(".js-source");
+        const biographySource = document.querySelector(".section__link--biographySource");
+        biographySource.classList.toggle("section__link--show");
+        source.innerText = biographySource.classList.contains("section__link--show")
+            ? "Pokaż" : "Ukryj";
+    }
 
-button.addEventListener("click", () => {
-    biographySource.classList.toggle("section__link--show");
+    const init = () => {
+        const button = document.querySelector(".js-section__button");
+        button.addEventListener("click", toggleSourceDisplay);
+    }
 
-    source.innerText = biographySource.classList.contains("section__link--show")
-        ? "Pokaż" : "Ukryj";
-});
+    init();
+}
